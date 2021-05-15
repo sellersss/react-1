@@ -1,13 +1,6 @@
 import React from "react";
 import storyList from "./StoryList";
 
-/**
- *
- * accepts story choice function as prop
- * renders a dropdown menu with titles of stories,
- * sends story choice back to Madlibs (parent component)
- */
-
 function StoryChoices({ setStoryChoice }) {
   return (
     <div className="dropdown">
